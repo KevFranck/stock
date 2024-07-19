@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from 'axios'
-import { Card, Table } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 const ProduitList = () => {
     const [produits, setProduits] = useState([])
